@@ -34,50 +34,25 @@
 
 ---
 
-## 🚀 Featured Work
+## 🎮 Games On My Contribution Graph
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Every commit I push becomes food for these two. Both are rebuilt automatically every 12 hours.
 
-### 🩺 Curelex — System Architecture & ML
-Designing the backend architecture of the [Curelex](https://curelex.in) platform and integrating ML models into its services: data pipelines, model serving and scalable APIs.
+### 🐍 Snake
 
-`System Design` `Machine Learning` `APIs`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/github-snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Numair-0/Numair-0/output/github-snake.svg" />
+</picture>
 
-</td>
-<td width="50%" valign="top">
+### 👾 Pac-Man
 
-### 🏫 SmartEd — School ERP
-ERP for educational institutions covering students, staff, attendance, fees and reporting, plus the product website.
-
-[ERP](https://github.com/Numair-0/smarted_battalion_flow) · [Website](https://github.com/Numair-0/smarted-website-v1) · [ERP system](https://github.com/Numair-0/ERP-management-system)
-
-`TypeScript` `JavaScript`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 Shifra — AI Assistant
-A personal AI assistant that understands natural language and automates everyday tasks.
-
-[Repository](https://github.com/Numair-0/assistant)
-
-`AI` `JavaScript`
-
-</td>
-<td width="50%" valign="top">
-
-### 📦 More Projects
-Madarsa ERP, Skillbridge, e-commerce stores and client sites.
-
-[Browse all repositories →](https://github.com/Numair-0?tab=repositories)
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/Numair-0/Numair-0/output/pacman-contribution-graph.svg" />
+</picture>
 
 ---
 
