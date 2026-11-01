@@ -34,25 +34,17 @@
 
 ---
 
-## 🎮 Games On My Contribution Graph
+## 💡 Dev Quote Of The Visit
 
-Every commit I push becomes food for these two. Both are rebuilt automatically every 12 hours.
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
+</div>
 
-### 🐍 Snake
+## 😄 Random Dev Joke
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/github-snake.svg" />
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Numair-0/Numair-0/output/github-snake.svg" />
-</picture>
-
-### 👾 Pac-Man
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Numair-0/Numair-0/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/Numair-0/Numair-0/output/pacman-contribution-graph.svg" />
-</picture>
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api" alt="Random programming joke" />
+</div>
 
 ---
 
