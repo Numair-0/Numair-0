@@ -55,8 +55,14 @@ I care about clear architecture, honest trade-offs, and software that keeps work
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Numair-0&hide_border=true&border_radius=20&background=090d18&ring=5eead4&fire=f472b6&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=5eead4&sideLabels=94a3b8&dates=64748b&stroke=1e293b" width="100%" alt="GitHub streak" />
+  <img src="assets/activity.svg" width="100%" alt="Contributions, current streak, longest streak and daily activity" />
 </p>
+
+<p align="center">
+  <a href="https://github.com/Numair-0?tab=repositories"><img src="assets/recent.svg" width="100%" alt="Latest repositories" /></a>
+</p>
+
+<p align="center"><sub>Charts refresh automatically every day.</sub></p>
 
 <br/>
 
