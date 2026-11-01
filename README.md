@@ -1,92 +1,48 @@
-<div align="center">
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Numair Ahmad Khan, Software Engineer" />
+</p>
 
-<img src="assets/header.svg" width="100%" alt="Numair Ahmad Khan · Software Engineer at Curelex.in" />
-
-<br/>
-
-<a href="https://curelex.in"><img src="https://img.shields.io/badge/Curelex.in-Software_Engineer-5eead4?style=for-the-badge&labelColor=0d1117" alt="Curelex.in" /></a>
-<img src="https://img.shields.io/badge/Prayagraj-India-818cf8?style=for-the-badge&labelColor=0d1117" alt="Prayagraj, India" />
-<img src="https://img.shields.io/badge/Open_to-Collaborate-f472b6?style=for-the-badge&labelColor=0d1117" alt="Open to collaborate" />
-
-</div>
+<p align="center">
+  <a href="https://curelex.in"><img src="https://img.shields.io/badge/Software_Engineer-Curelex.in-0f172a?style=flat-square&labelColor=5eead4" alt="Software Engineer at Curelex.in" /></a>
+  <img src="https://img.shields.io/badge/Based_in-India-0f172a?style=flat-square&labelColor=818cf8" alt="Based in India" />
+  <img src="https://img.shields.io/badge/Open_to-Collaborate-0f172a?style=flat-square&labelColor=f472b6" alt="Open to collaborate" />
+</p>
 
 <br/>
 
-### `> about.ts`
+I design and build **systems that scale** and bring **machine learning into real products**.
+Today that means architecting the platform at [**Curelex**](https://curelex.in), building an ERP for schools, and working on my own AI assistant.
 
-```typescript
-const numair = {
-  role:       "Software Engineer @ Curelex.in",
-  location:   "Prayagraj, India",
-  focus:      ["System Architecture", "ML Integration", "Scalable Backends"],
-  building: {
-    curelex:  "Platform architecture & machine learning integration",
-    smarted:  "ERP for schools and institutions",
-    shifra:   "A personal AI assistant",
-  },
-  principle:  "Simple systems scale. Clever ones break.",
-};
-```
+I care about clear architecture, honest trade-offs, and software that keeps working long after launch.
 
 <br/>
 
-### `> what_i_do`
+## Focus
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**🏗️ System Architecture**
-
-Designing services, data models and APIs that stay fast and maintainable as products and teams grow.
-
-</td>
-<td width="33%" valign="top">
-
-**🧠 ML Integration**
-
-Taking models out of notebooks and into production: pipelines, serving and monitoring inside real apps.
-
-</td>
-<td width="33%" valign="top">
-
-**⚡ Product Engineering**
-
-Shipping full-stack products end to end, from ERP platforms to AI assistants.
-
-</td>
-</tr>
-</table>
+- **System architecture:** service boundaries, data models, and APIs that stay fast as products grow
+- **ML integration:** taking models from notebooks to production, with pipelines, serving, and monitoring
+- **Product engineering:** shipping full-stack products end to end
 
 <br/>
 
-### `> tech_stack`
+## Building
 
-| | |
-|:--|:--|
-| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,python,php" /> |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" /> |
-| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,laravel" /> |
-| **Data & ML** | <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,pytorch,sklearn" /> |
-| **DevOps & Tools** | <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,linux,vscode" /> |
+| | Project | What it is |
+|:-:|:--|:--|
+| 🧬 | [**Curelex**](https://curelex.in) | Platform architecture and machine learning integration |
+| 🏫 | [**SmartEd**](https://github.com/Numair-0/smarted_battalion_flow) | ERP for schools and institutions, with its [website](https://github.com/Numair-0/smarted-website-v1) |
+| 🤖 | [**Shifra**](https://github.com/Numair-0/assistant) | A personal AI assistant |
 
 <br/>
 
-### `> git log --stats`
+## Toolkit
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Numair-0&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=5eead4&icon_color=818cf8" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Numair-0&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=5eead4" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com?user=Numair-0&theme=github-dark-blue&hide_border=true&ring=5eead4&fire=f472b6&currStreakLabel=5eead4" alt="GitHub streak" />
-
-</div>
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,php,react,nextjs,nodejs,express,tailwind,mysql,postgres,mongodb,firebase,docker,git,vercel&perline=16" alt="TypeScript, JavaScript, Python, PHP, React, Next.js, Node.js, Express, Tailwind, MySQL, PostgreSQL, MongoDB, Firebase, Docker, Git, Vercel" />
+</p>
 
 <br/>
 
-<div align="center">
-
-<sub>Designing systems that outlive the code that built them.</sub>
-
-</div>
+<p align="center">
+  <sub>Simple systems scale. Clever ones break.</sub>
+</p>

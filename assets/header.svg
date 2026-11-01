@@ -1,86 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05070d"/>
-      <stop offset="1" stop-color="#0d1424"/>
+    <radialGradient id="glow" cx="50%" cy="0%" r="75%">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#07090f"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4">
-        <animate attributeName="stop-color" values="#5eead4;#818cf8;#f472b6;#5eead4" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#f472b6;#5eead4;#818cf8" dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
-    </pattern>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="60"/>
-    </filter>
-    <clipPath id="frame"><rect width="1200" height="380" rx="20"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="track"><rect x="440" y="196" width="320" height="4"/></clipPath>
 
-    <clipPath id="c1"><rect x="684" y="94" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="0.5s" dur="0.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c2"><rect x="684" y="118" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="1.4s" dur="0.01s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c3"><rect x="684" y="142" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="1.8s" dur="0.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c4"><rect x="684" y="166" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="2.7s" dur="0.01s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c5"><rect x="684" y="190" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="3.1s" dur="0.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c6"><rect x="684" y="214" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="4.0s" dur="0.01s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c7"><rect x="684" y="238" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="4.4s" dur="0.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c8"><rect x="684" y="262" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="5.3s" dur="0.01s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c9"><rect x="684" y="286" height="24" width="0"><animate attributeName="width" from="0" to="440" begin="5.6s" dur="0.01s" fill="freeze"/></rect></clipPath>
+    <path id="p1" d="M70 50 L170 110 L260 180 L330 250"/>
+    <path id="p2" d="M1150 60 L1030 120 L940 200 L870 260"/>
+    <path id="p3" d="M40 140 L170 110 L250 60"/>
+    <path id="p4" d="M950 70 L1030 120 L1120 200 L1060 280"/>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="380" fill="url(#bg)"/>
-    <circle cx="200" cy="80" r="160" fill="#14b8a6" opacity="0.25" filter="url(#blur)">
-      <animate attributeName="cx" values="200;340;200" dur="12s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1000" cy="320" r="180" fill="#6366f1" opacity="0.3" filter="url(#blur)">
-      <animate attributeName="cy" values="320;230;320" dur="10s" repeatCount="indefinite"/>
-    </circle>
-    <rect width="1200" height="380" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
 
-    <!-- Left: identity -->
-    <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
-      <text x="60" y="110" font-family="Consolas, Menlo, monospace" font-size="16" fill="#5eead4">// hello world, I'm</text>
-      <text x="60" y="175" font-size="54" font-weight="800" fill="url(#name)">Numair Ahmad Khan</text>
-      <text x="60" y="215" font-size="22" font-weight="600" fill="#e2e8f0">Software Engineer at Curelex.in</text>
-      <text x="60" y="245" font-size="17" fill="#94a3b8">Building scalable systems &amp; reliable software.</text>
+    <!-- Network -->
+    <g fill="none" stroke="#94a3b8" stroke-opacity="0.16" stroke-width="1">
+      <path d="M40 140 L170 110 M70 50 L170 110 L250 60 M170 110 L260 180 L330 250 L150 280 L90 200 L170 110 M90 200 L40 140"/>
+      <path d="M1170 150 L1150 60 L1030 120 L950 70 M1030 120 L1120 200 L1170 150 M1030 120 L940 200 L870 260 M940 200 L1060 280 L1120 200"/>
     </g>
-    <g font-family="Consolas, Menlo, monospace" font-size="13" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.8s" fill="freeze"/>
-      <rect x="60" y="272" width="176" height="30" rx="15" fill="#5eead4" fill-opacity="0.1" stroke="#5eead4" stroke-opacity="0.5"/>
-      <text x="148" y="292" text-anchor="middle" fill="#5eead4">System Architecture</text>
-      <rect x="248" y="272" width="137" height="30" rx="15" fill="#818cf8" fill-opacity="0.1" stroke="#818cf8" stroke-opacity="0.5"/>
-      <text x="316.5" y="292" text-anchor="middle" fill="#a5b4fc">ML Integration</text>
-      <rect x="397" y="272" width="161" height="30" rx="15" fill="#f472b6" fill-opacity="0.1" stroke="#f472b6" stroke-opacity="0.5"/>
-      <text x="477.5" y="292" text-anchor="middle" fill="#f9a8d4">Scalable Backends</text>
+    <g fill="#cbd5e1" fill-opacity="0.4">
+      <circle cx="70" cy="50" r="2.5"/><circle cx="170" cy="110" r="4"/><circle cx="90" cy="200" r="3"/>
+      <circle cx="250" cy="60" r="2.5"/><circle cx="260" cy="180" r="3"/><circle cx="150" cy="280" r="2.5"/>
+      <circle cx="330" cy="250" r="3"/><circle cx="40" cy="140" r="2.5"/>
+      <circle cx="1150" cy="60" r="2.5"/><circle cx="1030" cy="120" r="4"/><circle cx="1120" cy="200" r="3"/>
+      <circle cx="950" cy="70" r="2.5"/><circle cx="940" cy="200" r="3"/><circle cx="1060" cy="280" r="2.5"/>
+      <circle cx="870" cy="260" r="3"/><circle cx="1170" cy="150" r="2.5"/>
+    </g>
+    <g>
+      <circle r="3" fill="#5eead4"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="3" fill="#818cf8"><animateMotion dur="5s" begin="1s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="2.5" fill="#818cf8"><animateMotion dur="4.5s" begin="2s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+      <circle r="2.5" fill="#5eead4"><animateMotion dur="3.5s" begin="0.5s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
     </g>
 
-    <!-- Right: terminal -->
-    <rect x="660" y="50" width="480" height="280" rx="14" fill="#0b1020" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.1"/>
-    <path d="M660 86H1140" stroke="#ffffff" stroke-opacity="0.08"/>
-    <circle cx="684" cy="68" r="6" fill="#ff5f57"/>
-    <circle cx="704" cy="68" r="6" fill="#febc2e"/>
-    <circle cx="724" cy="68" r="6" fill="#28c840"/>
-    <text x="900" y="73" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#64748b">numair@dev: ~</text>
-
-    <g font-family="Consolas, Menlo, monospace" font-size="15">
-      <text x="684" y="110" clip-path="url(#c1)"><tspan fill="#5eead4">$ </tspan><tspan fill="#e2e8f0">whoami</tspan></text>
-      <text x="684" y="134" clip-path="url(#c2)" fill="#94a3b8">Numair Ahmad Khan</text>
-      <text x="684" y="158" clip-path="url(#c3)"><tspan fill="#5eead4">$ </tspan><tspan fill="#e2e8f0">cat role.txt</tspan></text>
-      <text x="684" y="182" clip-path="url(#c4)" fill="#94a3b8">Software Engineer @ Curelex.in</text>
-      <text x="684" y="206" clip-path="url(#c5)"><tspan fill="#5eead4">$ </tspan><tspan fill="#e2e8f0">ls ~/building</tspan></text>
-      <text x="684" y="230" clip-path="url(#c6)" fill="#a5b4fc">curelex/   smarted/   shifra/</text>
-      <text x="684" y="254" clip-path="url(#c7)"><tspan fill="#5eead4">$ </tspan><tspan fill="#e2e8f0">echo $LOCATION</tspan></text>
-      <text x="684" y="278" clip-path="url(#c8)" fill="#94a3b8">Prayagraj, India</text>
-      <text x="684" y="302" clip-path="url(#c9)" fill="#5eead4">$</text>
+    <!-- Identity -->
+    <g text-anchor="middle">
+      <text x="600" y="108" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="6" fill="#5eead4">SOFTWARE ENGINEER
+        <animate attributeName="opacity" values="0;1" dur="0.8s"/>
+      </text>
+      <text x="600" y="172" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="700" fill="#f8fafc">Numair Ahmad Khan
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;1" dur="1.3s"/>
+      </text>
+      <text x="600" y="242" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="19" fill="#94a3b8">Architecting scalable systems  ·  Integrating machine learning
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.6;1" dur="1.8s"/>
+      </text>
+      <text x="600" y="282" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1" fill="#64748b">curelex.in   ·   india   ·   open to collaborate
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.7;1" dur="2.2s"/>
+      </text>
     </g>
-    <rect x="700" y="288" width="9" height="17" fill="#5eead4" opacity="0">
-      <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" begin="5.6s" repeatCount="indefinite"/>
-    </rect>
 
-    <rect x="0.5" y="0.5" width="1199" height="379" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+    <!-- Underline beam -->
+    <rect x="440" y="197" width="320" height="1" fill="#ffffff" fill-opacity="0.08"/>
+    <g clip-path="url(#track)">
+      <rect x="340" y="196" width="120" height="3" rx="1.5" fill="url(#beam)">
+        <animate attributeName="x" values="340;760;340" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
   </g>
 </svg>
