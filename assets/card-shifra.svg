@@ -7,7 +7,7 @@
 <defs><clipPath id="type"><rect x="56" y="246" height="30" width="0"><animate attributeName="width" values="0;250;250;0" keyTimes="0;0.45;0.9;1" dur="6s" repeatCount="indefinite"/></rect></clipPath></defs>
 <rect x="40" y="40" width="56" height="56" rx="16" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.45"/><g transform="translate(40,40)" stroke="#f472b6" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M28 10 C30 22 34 26 46 28 C34 30 30 34 28 46 C26 34 22 30 10 28 C22 26 26 22 28 10 Z"/></g>
 <text x="114" y="64" class="m6" font-size="12" letter-spacing="2" fill="#f472b6">AI ASSISTANT</text>
-<text x="114" y="88" class="m4" font-size="13" fill="#64748b">JavaScript  ·  NLP</text>
+<text x="114" y="88" class="m4" font-size="13" fill="#64748b">JavaScript  ·  3 commits  ·  1y ago</text>
 <rect x="464" y="44" width="96" height="28" rx="14" fill="#f472b6" fill-opacity="0.1" stroke="#f472b6" stroke-opacity="0.4"/><circle cx="482" cy="58" r="4" fill="#f472b6"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="494" y="63" class="m6" font-size="12" letter-spacing="1.5" fill="#f472b6">ACTIVE</text>
 <text x="40" y="160" class="d7" font-size="42" letter-spacing="-1" fill="#f8fafc">Shifra</text>
 <text x="40" y="194" class="d5" font-size="17" fill="#94a3b8">A personal AI assistant that understands</text>
