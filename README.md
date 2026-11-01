@@ -3,21 +3,15 @@
 </p>
 
 <p align="center">
-  <a href="https://curelex.in"><img src="https://img.shields.io/badge/Software_Engineer-Curelex.in-0f172a?style=flat-square&labelColor=5eead4" alt="Software Engineer at Curelex.in" /></a>
-  <img src="https://img.shields.io/badge/Based_in-India-0f172a?style=flat-square&labelColor=818cf8" alt="Based in India" />
-  <img src="https://img.shields.io/badge/Open_to-Collaborate-0f172a?style=flat-square&labelColor=f472b6" alt="Open to collaborate" />
+  <a href="https://curelex.in"><img src="https://img.shields.io/badge/Software_Engineer-Curelex.in-090d18?style=for-the-badge&labelColor=5eead4" alt="Software Engineer at Curelex.in" /></a>
+  <img src="https://img.shields.io/badge/Based_in-India-090d18?style=for-the-badge&labelColor=818cf8" alt="Based in India" />
+  <img src="https://img.shields.io/badge/Open_to-Collaborate-090d18?style=for-the-badge&labelColor=f472b6" alt="Open to collaborate" />
 </p>
 
 <br/>
 
 I design and build **systems that scale** and bring **machine learning into real products**.
-Today that means architecting the platform at [**Curelex**](https://curelex.in), building an ERP for schools, and working on my own AI assistant.
-
 I care about clear architecture, honest trade-offs, and software that keeps working long after launch.
-
-<br/>
-
-## Focus
 
 - **System architecture:** service boundaries, data models, and APIs that stay fast as products grow
 - **ML integration:** taking models from notebooks to production, with pipelines, serving, and monitoring
@@ -25,20 +19,48 @@ I care about clear architecture, honest trade-offs, and software that keeps work
 
 <br/>
 
-## Building
+## ✦ Building
 
-| | Project | What it is |
-|:-:|:--|:--|
-| 🧬 | [**Curelex**](https://curelex.in) | Platform architecture and machine learning integration |
-| 🏫 | [**SmartEd**](https://github.com/Numair-0/smarted_battalion_flow) | ERP for schools and institutions, with its [website](https://github.com/Numair-0/smarted-website-v1) |
-| 🤖 | [**Shifra**](https://github.com/Numair-0/assistant) | A personal AI assistant |
+<p align="center">
+  <a href="https://curelex.in"><img src="assets/card-curelex.svg" width="100%" alt="Curelex: platform architecture and machine learning integration" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Numair-0/smarted_battalion_flow"><img src="assets/card-smarted.svg" width="49%" alt="SmartEd: ERP for schools and institutions" /></a>
+  <a href="https://github.com/Numair-0/assistant"><img src="assets/card-shifra.svg" width="49%" alt="Shifra: a personal AI assistant" /></a>
+</p>
 
 <br/>
 
-## Toolkit
+## ✦ Toolkit
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,php,react,nextjs,nodejs,express,tailwind,mysql,postgres,mongodb,firebase,docker,git,vercel&perline=16" alt="TypeScript, JavaScript, Python, PHP, React, Next.js, Node.js, Express, Tailwind, MySQL, PostgreSQL, MongoDB, Firebase, Docker, Git, Vercel" />
+<p align="center"><sub><b>LANGUAGES & FRONTEND</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,php,html,css,react,nextjs,redux,tailwind,vite&perline=11" alt="Languages and frontend" />
+</p>
+<p align="center"><sub><b>BACKEND & DATA</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,prisma,graphql,mysql,postgres,mongodb,redis,supabase,firebase&perline=12" alt="Backend and data" />
+</p>
+<p align="center"><sub><b>AI / ML & CLOUD</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,aws,gcp,docker,kubernetes,nginx,linux&perline=10" alt="AI, ML and cloud" />
+</p>
+<p align="center"><sub><b>WORKFLOW</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,postman,figma,vscode&perline=7" alt="Workflow tools" />
+</p>
+
+<br/>
+
+## ✦ Code & Activity
+
+<p align="center">
+  <img src="assets/languages.svg" width="100%" alt="Language breakdown across public repositories" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Numair-0&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=20&bg_color=090d18&title_color=5eead4&icon_color=818cf8&text_color=94a3b8" height="180" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=Numair-0&hide_border=true&border_radius=20&background=090d18&ring=5eead4&fire=f472b6&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=5eead4&sideLabels=94a3b8&dates=64748b&stroke=1e293b" height="180" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Numair-0&bg_color=090d18&color=94a3b8&line=5eead4&point=818cf8&area=true&area_color=5eead4&title_color=5eead4&hide_border=true&radius=20" width="100%" alt="Contribution graph" />
 </p>
 
 <br/>
