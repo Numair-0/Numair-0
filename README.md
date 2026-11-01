@@ -55,12 +55,7 @@ I care about clear architecture, honest trade-offs, and software that keeps work
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Numair-0&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=20&bg_color=090d18&title_color=5eead4&icon_color=818cf8&text_color=94a3b8" height="180" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com?user=Numair-0&hide_border=true&border_radius=20&background=090d18&ring=5eead4&fire=f472b6&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=5eead4&sideLabels=94a3b8&dates=64748b&stroke=1e293b" height="180" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Numair-0&bg_color=090d18&color=94a3b8&line=5eead4&point=818cf8&area=true&area_color=5eead4&title_color=5eead4&hide_border=true&radius=20" width="100%" alt="Contribution graph" />
+  <img src="https://streak-stats.demolab.com?user=Numair-0&hide_border=true&border_radius=20&background=090d18&ring=5eead4&fire=f472b6&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=5eead4&sideLabels=94a3b8&dates=64748b&stroke=1e293b" width="100%" alt="GitHub streak" />
 </p>
 
 <br/>
