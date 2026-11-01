@@ -1,79 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Numair%20Ahmad%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="header" />
+<img src="assets/header.svg" width="100%" alt="Numair Ahmad Khan · Software Engineer at Curelex.in" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Curelex.in;Building+scalable+systems+%26+reliable+software;System+Architecture+%7C+ML+Integration;ERP+platforms+%7C+AI+assistants" alt="Typing SVG" /></a>
+<br/>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Numair-0&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Numair-0?label=Followers&style=flat&color=36BCF7" alt="followers" />
-</p>
-
-</div>
-
----
-
-## 👋 About Me
-
-- 🧑‍💻 **Software Engineer** at [**Curelex.in**](https://curelex.in), based in **Prayagraj, India**
-- 🏗️ I design **system architecture** and integrate **machine learning** into production apps
-- 🏫 Building **SmartEd**, an ERP platform for schools and institutions
-- 🤖 Working on **Shifra**, a personal AI assistant
-- ⚡ I care about systems that scale and code that stays reliable
-
----
-
-## 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,php,react,nextjs,nodejs,express,tailwind,html,css&perline=11" alt="languages and frameworks" />
-</p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,pytorch,sklearn,docker,git,github,vercel,vscode&perline=11" alt="tools" />
-</p>
-
----
-
-## 💡 Dev Quote Of The Visit
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
-</div>
-
-## 😄 Random Dev Joke
-
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api" alt="Random programming joke" />
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Numair-0&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Numair-0&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com?user=Numair-0&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Numair-0&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" width="100%" />
+<a href="https://curelex.in"><img src="https://img.shields.io/badge/Curelex.in-Software_Engineer-5eead4?style=for-the-badge&labelColor=0d1117" alt="Curelex.in" /></a>
+<img src="https://img.shields.io/badge/Prayagraj-India-818cf8?style=for-the-badge&labelColor=0d1117" alt="Prayagraj, India" />
+<img src="https://img.shields.io/badge/Open_to-Collaborate-f472b6?style=for-the-badge&labelColor=0d1117" alt="Open to collaborate" />
 
 </div>
 
----
+<br/>
 
-## 🤝 Connect With Me
+### `> about.ts`
 
-<p align="left">
-  <a href="https://curelex.in"><img src="https://img.shields.io/badge/Curelex.in-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Curelex" /></a>
-  <a href="https://github.com/Numair-0"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <!-- Add your links by uncommenting and editing these:
-  <a href="https://www.linkedin.com/in/YOUR-ID"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  -->
-</p>
+```typescript
+const numair = {
+  role:       "Software Engineer @ Curelex.in",
+  location:   "Prayagraj, India",
+  focus:      ["System Architecture", "ML Integration", "Scalable Backends"],
+  building: {
+    curelex:  "Platform architecture & machine learning integration",
+    smarted:  "ERP for schools and institutions",
+    shifra:   "A personal AI assistant",
+  },
+  principle:  "Simple systems scale. Clever ones break.",
+};
+```
+
+<br/>
+
+### `> what_i_do`
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**🏗️ System Architecture**
+
+Designing services, data models and APIs that stay fast and maintainable as products and teams grow.
+
+</td>
+<td width="33%" valign="top">
+
+**🧠 ML Integration**
+
+Taking models out of notebooks and into production: pipelines, serving and monitoring inside real apps.
+
+</td>
+<td width="33%" valign="top">
+
+**⚡ Product Engineering**
+
+Shipping full-stack products end to end, from ERP platforms to AI assistants.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### `> tech_stack`
+
+| | |
+|:--|:--|
+| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,python,php" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" /> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,laravel" /> |
+| **Data & ML** | <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,pytorch,sklearn" /> |
+| **DevOps & Tools** | <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,linux,vscode" /> |
+
+<br/>
+
+### `> git log --stats`
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" alt="footer" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Numair-0&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=5eead4&icon_color=818cf8" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Numair-0&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=5eead4" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com?user=Numair-0&theme=github-dark-blue&hide_border=true&ring=5eead4&fire=f472b6&currStreakLabel=5eead4" alt="GitHub streak" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<sub>Designing systems that outlive the code that built them.</sub>
+
 </div>
